@@ -1,0 +1,20 @@
+<script>
+	class TestComponent extends HTMLElement {
+		constructor() {
+			super()
+			console.log('Constructed', this)
+		}
+
+		connectedCallback() {
+			console.log('Connected', this)
+		}
+
+		disconnectedCallback() {
+			console.log('Disconnected', this)
+		}
+	}
+
+	if ('customElements' in window) {
+		customElements.define('test-component', TestComponent)
+	}
+</script>
