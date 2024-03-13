@@ -1,2 +1,4 @@
-# dec-site-build
-Dec's Site Build
+# Dec's Site Build
+
+Built with vanilla JS, HTML, CSS
+Taking inspiration from BEM, ACSS, SMACSS
